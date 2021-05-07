@@ -1,0 +1,167 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+
+}
+
+#main{
+	position: relative;
+	height: 100vh;
+	background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(gal1.jpg);
+	background-position: center;
+	background-size: cover;
+	overflow-x: hidden;
+}
+#nav{
+	display: flex;
+	padding: 40px 120px;
+}
+#logo , #logo1{
+	width: 130px;
+}
+
+#links{
+	flex: 1;
+}
+
+#links ul{
+	display: inline;
+	margin-left: 50px;
+}
+#links ul li{
+	display: inline-block;
+	list-style: none;
+	padding: 8px 25px;
+	padding-top: 15px;
+	color: #a0a0a0;	
+}
+#links ul li::after{
+	content: '';
+	display: block;
+	width: 0px;
+	height: 2px;
+	background: #ff3414;
+	margin:auto;
+	transition: 0.5s;
+
+}
+#links ul li:hover::after{
+	width: 100%;
+
+}
+#links ul li:hover{
+	color: #ffffff;
+}
+#links ul a{
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+#btn{
+	padding: 10px 20px;
+	border:0;
+	background-color: #ff3414;
+	cursor: pointer;
+	font-weight: bold;
+    margin-top: 15px;
+	float: right;
+}
+
+#slogan{
+	margin:80px 130px;
+	color: #ffffff;
+	font-size: 36px;
+}
+span{
+	color: white;
+	font-size: 90px;
+	color: #ff3414;
+}
+#btn2{
+	padding: 10px 20px;
+	border:2px solid #ff3414;
+	background-color: transparent;
+	cursor: pointer;
+	font-weight: bold;
+	margin-top: 40px;
+	color: white;
+}
+#btn2:hover{
+	background-color: #ff3414;
+	color: black;
+}
+
+#left{
+	height: 100%;
+	left: 0;
+	top: 0;
+	background-color: black;
+	position: absolute;
+}
+#search{
+	border:1px solid black;
+	border-radius: 10px;
+	width:30px;
+	height: 100px;
+}
+.search{
+	height: 60%;
+	width: 80px;
+}
+.search .fas{
+	margin:45px 23px;
+	color: white;
+	display: block;
+	font-size: 30px;
+	cursor: pointer;
+}
+.social{
+	height: 35%;
+	width: 80px;
+	position: absolute;
+	padding-top: 27px;
+	bottom: 0;
+	background-color: #ff3414;
+	text-align: center;
+}
+.social .fab{
+	margin:15px 23px;
+	padding:8px;
+	cursor: pointer;
+	border:1px solid black;
+	border-radius: 50%;
+	display: block;
+}
+#soc{
+	text-decoration: none;
+	color: black;
+}
+@media (max-width: 700px){
+	#left{
+width: 50px;
+	}
+	#slogan h1{
+	font-size: 30px;}
+	#slogan{
+	margin:80px 40px;}
+	#nav{
+	padding: 10px 30px;
+}
+.fa-bars{
+	position: absolute;
+	right: 20px;
+	top: 10px;
+
+}
+#links ul li{
+	display: inline;
+	font-size: 10px;
+	padding: 2px;	
+}
+
+
+
+
+}

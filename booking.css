@@ -1,0 +1,325 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+
+}
+#nav{
+	display: flex;
+	padding: 0px 120px;
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:120px;
+    background: RGBA(0,0,0,0.3);
+    z-index:2;
+
+}
+#logo , #logo1{
+	width: 130px;
+	margin-top: 15px;
+
+}
+
+#links{
+	flex: 1;
+}
+
+#links ul{
+	display: inline;
+	margin-left: 50px;
+}
+#links ul li{
+	display: inline-block;
+	list-style: none;
+	padding: 8px 25px;
+	padding-top: 45px;
+	color:  #a0a0a0;	
+}
+#links ul li::after{
+	content: '';
+	display: block;
+	width: 0px;
+	height: 2px;
+	background: #ff3414;
+	margin:auto;
+	transition: 0.5s;
+
+}
+#links ul li:hover::after{
+	width: 100%;
+
+}
+#links ul li:hover{
+	color: white;
+}
+#links ul a{
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+#btn{
+	padding: 10px 20px;
+	border:0;
+	background-color: #ff3414;
+	cursor: pointer;
+	font-weight: bold;
+    margin-top: 15px;
+	margin-top: 35px;
+	margin-left: 300px;
+}
+
+.book{
+	width: 100%;
+	height: 650px;
+	background-position: center;
+	background-size: cover;
+}
+footer{
+	width: 100%;
+	height: 350px;
+	background-color: #322d28;
+}
+.suc{
+	color: white;
+	font-size: 15px;
+	padding-top: 50px;
+	margin-left: 80px;
+}
+.suca{
+	color: #ff3414;
+	text-decoration: none;
+}
+.suca:hover{
+	color: #9B870C;
+	text-decoration: none;
+}
+.suca:visted{
+	color: white;
+	text-decoration: none;
+}
+.cont{
+	margin-left: 600px;
+	margin-top: -100px;
+}
+#div1{
+	color: #ff3414;
+	font-size: 15px;
+	text-decoration: none;
+} 
+#div1:hover{
+	color: #9B870C;
+	text-decoration: none;
+}
+#div1:visted{
+	color: white;
+	text-decoration: none;
+}
+ #div2 , #div3 , #div4 ,#div5{
+	color: white;
+}#div2:hover{
+	color: #9B870C;
+	text-decoration: none;
+}
+#div2:visted{
+	color: white;
+	text-decoration: none;
+}#div3:hover{
+	color: #9B870C;
+	text-decoration: none;
+}
+#div3:visted{
+	color: white;
+	text-decoration: none;
+}#div4:hover{
+	color: #9B870C;
+	text-decoration: none;
+}
+#div4:visted{
+	color: white;
+	text-decoration: none;
+}#div5:hover{
+	color: #9B870C;
+	text-decoration: none;
+}
+#div5:visted{
+	color: white;
+	text-decoration: none;
+}
+#search{
+	margin-left: 900px;
+	height: 50px;
+	width: 300px;
+}
+.se{
+	height: 50px;
+	margin-left: -7px;
+	font-weight: bold;
+	color: black;
+	background-color: #ff3414;
+}
+.back{
+
+	height: 100vh;
+	background-image:url(book7.jpg);
+	background-position: center;
+	background-size: cover;
+	overflow-x: hidden;
+}
+.white{
+	width: 350px;
+	height: 430px;
+	background:RGBA(0,0,0,0.8);;
+	text-align: center;
+	margin-top: 150px;
+	margin-left: 320px;
+}
+#checkin,#checkout{
+	width: 200px;
+	height: 30px;
+	background-color: transparent;
+	border: 1px solid white;
+	color: white;
+}
+#checkin::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+#checkout::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+.chin{
+	color: white;
+	margin-left: -140px;
+
+
+} 
+.chout{
+	color: white;
+	margin-left: -130px;
+
+}
+.i1{
+
+float: left;
+margin-top: 80px;
+margin-left: 100px;
+}
+.i2{
+float: left;
+margin-top: 80px;
+margin-left: 40px;	
+}
+.white2{
+	width: 350px;
+	height: 430px;
+	background:RGBA(0,0,0,0.8);;
+	text-align: center;
+	margin-left: 670px;
+	margin-top: -430px;
+
+}
+#des{
+		width: 490px;
+	height: 30px;
+	background-color: transparent;
+	border: 1px solid white;
+	color: white;
+	margin-top: 50px;
+	float: left;
+	margin-left: -250px;
+}
+.desp{
+	color: white;
+	margin-top: 150px;
+	position: absolute;
+	margin-left:-250px; 
+}
+#adult{
+	width: 50px;
+	height: 30px;
+	background-color: transparent;
+	border: 1px solid white;
+	color: white;
+	position: absolute;
+	margin-top: 250px;
+	margin-left: -80px;
+
+}
+.adp{
+	color: white;
+	position: absolute;
+	margin-top: 260px;
+	margin-left: -227px;
+}#children{
+	width: 50px;
+	height: 30px;
+	background-color: transparent;
+	border: 1px solid white;
+	color: white;
+	position: absolute;
+	margin-top: 250px;
+	margin-left: -100px;
+
+}
+.chp{
+	color: white;
+	position: absolute;
+	margin-top: 260px;
+	margin-left: -255px;
+}
+#credit{
+	width: 200px;
+	height: 30px;
+	background-color: transparent;
+	border: 1px solid white;
+	color: white;
+	margin-top: 320px;
+	position: absolute;
+	margin-left:-228px;
+}
+.idp{
+	color: white;
+	position: absolute;
+	margin-top: 293px;
+	margin-left: 98px;
+}.password{
+	width: 200px;
+	height: 30px;
+	background-color: transparent;
+	border: 1px solid white;
+	color: white;
+	margin-top: 320px;
+	position: absolute;
+	margin-left:-255px;
+}
+.passp{
+	color: white;
+	position: absolute;
+	margin-top: 293px;
+	margin-left: 40px;
+}
+.btn11{
+	padding: 10px 30px;
+	border-top: 2px solid #ff3414;
+	border-bottom: 2px solid #ff3414;
+	background-color: transparent;
+	cursor: pointer;
+	font-weight: bold;
+	border-right: 2px solid transparent;
+	border-left: 2px solid transparent;
+	text-decoration: none;
+	color: white;
+	transition:0.6s; 
+	display:inline-block;
+	font-size: 20px;
+	color: #a0a0a0;
+	margin-left: -370px;
+	margin-top:370px;
+	position: absolute;
+}
+.btn11:hover{
+	padding: 12px 33px;
+	color: white;
+}
